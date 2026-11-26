@@ -1,1 +1,15 @@
+{
+  "estados": ["q0", "q1", "q2"],
+  "alfabeto_entrada": ["a", "b"],
+  "alfabeto_fita": ["a", "b", "_"],
+  "estado_inicial": "q0",
+  "estados_finais": ["q2"],
+  "transicoes": [
+    ["q0", "a", "q0", "a", "D"],
+    ["q0", "b", "q1", "b", "D"],
+    ["q1", "b", "q1", "b", "D"],
+    ["q1", "_", "q2", "_", "D"]
+  ],
+  "cadeias_teste": ["aabb", "abbb", "aba"]
+}
 
